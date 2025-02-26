@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact List</h1>
+
+        <div class="content">
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Name" required />
+                <input type="text" id="phone" placeholder="Phone Number" required />
+                <input type="email" id="email" placeholder="Email" required />
+                <button type="submit">Add Contact</button>
+            </form>
+
+            <div class="contact-list">
+                <ul id="contactList"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
